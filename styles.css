@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.hero{
+	display:flex;
+}
+.hero-image {
+    width: 70%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    /* Places the image behind the content */
+}
+.explore-button {
+    padding: 10px 20px;
+    background-color: #ff6600; /* Custom background color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+	margin-left:100px
+    transition: background-color 0.3s;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom:20px;
+	text-align:center;
+	align-items:center
+}
+.hero-content{
+	align-items:center;
+	margin-top:90px;
+	margin-left:20px;
+}
+button{
+	align-items:center;
+}
+
